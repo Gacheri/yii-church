@@ -1,0 +1,73 @@
+.home{
+    background-color: red !important;
+    height: 10em;
+    width: 100%
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+#create-prayer{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* landing page */
+.landing-page, .sermon-jumbotron{
+    background-image: url(../../images/bg-1.jpg);
+    height: 30em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255);
+}
+h6{
+    color: rgba(255,255,255,);
+}
+.landing-verse{
+    font-size: 2em;
+
+}
+#card-link{
+   color: inherit;
+}
+.scrollmenu{
+    overflow: auto;
+    overflow-x: auto;
+    display: inline-flex;
+}
+#scroll-bar{
+    overflow-block: auto;
+    white-space: nowrap;
+}
+/* .modal{
+    display: block !important;
+}
+.modal-dialog{
+      overflow-y: initial !important
+}
+.modal-body{
+  height: 250px;
+  overflow-y: auto;
+} */
